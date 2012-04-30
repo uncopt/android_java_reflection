@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Tutorial Illustration</string>
+  <string name="uncopt">UNCOPT LLC</string>
+  <string name="visit_uncopt">Please check http://uncopt.com/android/filebrowser/</string>
+</resources>

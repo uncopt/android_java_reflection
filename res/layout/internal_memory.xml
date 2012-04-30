@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:background="#88000000">
+  <ImageView
+    android:id="@+id/internal_memory_thumbnail"
+    android:layout_width="64dip"
+    android:layout_height="64dip"
+    android:src="@drawable/internal_memory"
+    android:contentDescription="@string/internal_memory"
+    android:layout_margin="8dip"/>
+  <TextView
+    android:id="@+id/internal_memory_name"
+    android:minWidth="120dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/internal_memory_thumbnail"
+    android:text="@string/internal_memory"
+    android:layout_marginTop="16dip"
+    android:layout_marginBottom="4dip"
+    android:layout_marginRight="16dip"/>
+  <TextView
+    android:id="@+id/internal_memory_selected"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/internal_memory_thumbnail"
+    android:layout_below="@id/internal_memory_name"
+    android:text="@string/not_selected"
+    android:layout_marginTop="4dip"
+    android:layout_marginBottom="16dip"
+    android:layout_marginRight="16dip"/>
+</RelativeLayout>

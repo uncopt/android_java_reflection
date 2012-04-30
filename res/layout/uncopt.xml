@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#aa000000"
+  android:onClick="redirect">
+  <ImageView
+    android:layout_width="125dip"
+    android:layout_height="26dip"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="4dip"
+    android:scaleType="centerInside"
+    android:src="@drawable/uncopt"
+    android:contentDescription="@string/uncopt"/>
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:paddingTop="26dip"
+    android:paddingRight="72dip"
+    android:text="Please try our free applications"/>
+  <ImageView
+    android:layout_width="64dip"
+    android:layout_height="64dip"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="8dip"
+    android:src="@drawable/google_play_bag"/>
+</RelativeLayout>

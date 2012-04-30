@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="unknown">Unknown</string>
+  <string name="api_level">API Level: </string>
+  <string name="internal_memory">Internal Memory</string>
+  <string name="sd_card">SD Card</string>
+  <string name="selected">Selected</string>
+  <string name="not_selected">Not selected</string>
+</resources>
