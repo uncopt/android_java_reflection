@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 public class CommonTutorialIllustrationActivity extends Activity {
 
+  public static final int RESULT_FINISH = 2;
+
   @Override
   protected void onCreate(final Bundle state) {
     super.onCreate(state);
@@ -17,7 +19,14 @@ public class CommonTutorialIllustrationActivity extends Activity {
     catch (ClassNotFoundException e) {
       intent = new Intent(this, SupportTutorialIllustrationActivity.class);
     }
-    startActivity(intent);
+    startActivityForResult(intent, RESULT_FINISH);
+  }
+
+  @Override
+  protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+    if (requestCode == RESULT_FINISH) {
+      finish();
+    }
   }
 
 }
